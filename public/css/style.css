@@ -267,3 +267,106 @@ a:hover,
   text-align: center;
 }
 /* END OF MAIN PAGE SECTION */
+
+/* FORMS */
+/************ LOGIN PAGE *************/
+.login_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 12.5% 0 0 35%;
+  width: 600px;
+  height: 500px;
+  background-color: #dcdcdc;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.login_section h2 {
+  margin-top: 20px;
+}
+.reg_section {
+  height: 700px !important;
+  margin: 7.5% 0 0 40%;
+}
+.registeration_parent {
+  height: 700px;
+  margin-top: 5%;
+}
+.registeration_section {
+  height: 100%;
+}
+.login_logo {
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+}
+.login_logo img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.login_error {
+  padding: 10px;
+  border: 1px solid rgb(210, 4, 45, 0.8);
+  background-color: rgb(210, 4, 45, 0.1);
+  width: 80%;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.login_form,
+.registration_form {
+  width: 80%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  padding-top: 20px;
+}
+
+.login_form .form_inputs,
+.registration_form .form_inputs,
+.form_btn {
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+.form_btn {
+  margin-top: 20px;
+  transition: 0.3s;
+  background-color: #c1e1d2;
+  color: #1a1a1a;
+  font-size: medium;
+}
+.form_btn:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.login_footer {
+  display: flex;
+  margin-top: 20px;
+  width: 80%;
+  height: 50px;
+  padding: 10px 0;
+  color: black;
+}
+.login_footer p {
+  width: 50%;
+}
+.login_footer a {
+  color: #1a1a1a;
+}
+.back_home {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.back_home * {
+  padding: 0 10px;
+}

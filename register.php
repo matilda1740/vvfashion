@@ -20,7 +20,7 @@ try {
         $rs = mysqli_query($connection, $sql);
         if ($rs) {
             // echo "Records Inserted";
-            header("Location: index.php");
+            header("Location: login.html");
         }
         else {
             echo "\nError Inserting Records: " . $connection->error . "\n";
@@ -36,11 +36,11 @@ catch (Exception $e) {
     echo 'Result Set Error Message: ' . $e->getMessage();
 }
 
-echo 'user is: ' . $userID;
-print_r($_POST['registerFname']);
-print_r($_POST['registerLname']);
-print_r($_POST['registerGender']);
-print_r($_POST['registerEmail']);
-print_r($_POST['registerPass']);
-print_r($_POST['registerConfirmPass']);
+// echo 'user is: ' . $userID;
+// print_r($_POST['registerFname']);
+// print_r($_POST['registerLname']);
+// print_r($_POST['registerGender']);
+// print_r($_POST['registerEmail']);
+// print_r($_POST['registerPass']);
+// print_r($_POST['registerConfirmPass']);
 ?>
